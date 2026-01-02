@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "e0a42392-3aae-498c-8ffb-1e929d4ff45d",
+    "UserId": "73eda1da-a0d1-42f7-a790-db559ee1fbb5",
+    "Type": "Income",
+    "Category": "Salar",
+    "Amount": 1987,
+    "Date": "2025-12-23T14:50:09.7624569+05:30"
+  },
+  {
+    "Id": "42b05111-0afa-4017-a263-66df708b9a27",
+    "UserId": "e9f43f47-dc18-4550-bc6a-ebe9728d6047",
+    "Type": "Income",
+    "Category": "Salary",
+    "Amount": 19870,
+    "Date": "2025-12-23T15:09:50.4710656+05:30"
+  },
+  {
+    "Id": "f5cf930d-f978-4869-8d30-5441dfc97328",
+    "UserId": "e9f43f47-dc18-4550-bc6a-ebe9728d6047",
+    "Type": "Income",
+    "Category": "Tution",
+    "Amount": 5000,
+    "Date": "2025-12-23T15:38:10.8991142+05:30"
+  },
+  {
+    "Id": "668da0b0-578d-4db5-a643-01aa373ea086",
+    "UserId": "e9f43f47-dc18-4550-bc6a-ebe9728d6047",
+    "Type": "Expense",
+    "Category": "family purpose",
+    "Amount": 10000,
+    "Date": "2025-12-23T15:38:54.185601+05:30"
+  },
+  {
+    "Id": "90babf28-d4de-4548-89b8-b22f984de20f",
+    "UserId": "e9f43f47-dc18-4550-bc6a-ebe9728d6047",
+    "Type": "Investment",
+    "Category": "SIP",
+    "Amount": 5000,
+    "Date": "2025-12-23T17:46:33.149848+05:30"
+  },
+  {
+    "Id": "6dd263d2-49da-4ef6-aeea-0da5d89f2c6b",
+    "UserId": "e9f43f47-dc18-4550-bc6a-ebe9728d6047",
+    "Type": "Expense",
+    "Category": "Other",
+    "Amount": 500,
+    "Date": "2025-12-30T14:47:41.0494327+05:30"
+  }
+]

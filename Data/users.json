@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "1515d1b2-22cb-45e2-aadd-578d5e0dba5a",
+    "Username": "aa",
+    "Email": "aa@gmail.com",
+    "Password": "aaaaaaaa"
+  },
+  {
+    "Id": "73eda1da-a0d1-42f7-a790-db559ee1fbb5",
+    "Username": "abcd",
+    "Email": "abcd@gmail.com",
+    "Password": "abcd@12"
+  },
+  {
+    "Id": "e9f43f47-dc18-4550-bc6a-ebe9728d6047",
+    "Username": "akash",
+    "Email": "akash@gmail.com",
+    "Password": "akash@12"
+  },
+  {
+    "Id": "a7385d2e-0b2b-4d8a-8875-488eff2711f3",
+    "Username": "ayush",
+    "Email": "ayush@gmail.com",
+    "Password": "ayush@12"
+  },
+  {
+    "Id": "ab5e160b-7084-4efe-b3ae-de52a58f6340",
+    "Username": "ayus",
+    "Email": "ayus@gmail.com",
+    "Password": "ayus@1234"
+  }
+]

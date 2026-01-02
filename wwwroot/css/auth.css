@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4f46e5, #3b82f6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== CARD ===== */
+.auth-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 380px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    animation: slideUp 0.6s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== HEADINGS ===== */
+.auth-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ===== FORM ===== */
+.auth-card label {
+    font-size: 14px;
+    color: #555;
+}
+
+.auth-card input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.auth-card input:focus {
+    border-color: #4f46e5;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+}
+
+/* ===== BUTTON ===== */
+.auth-card button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #4f46e5;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.auth-card button:hover {
+    background: #4338ca;
+    transform: translateY(-1px);
+}
+
+/* ===== ERROR ===== */
+.auth-error {
+    margin-top: 12px;
+    color: #dc2626;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* ===== LINK ===== */
+.auth-link {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.auth-link a {
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}
+
+/* ===== DARK MODE SUPPORT (optional) ===== */
+body.dark {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+body.dark .auth-card {
+    background: #1e293b;
+    color: #e5e7eb;
+}
+
+body.dark .auth-card input {
+    background: #111827;
+    border-color: #374151;
+    color: #e5e7eb;
+}
+
+body.dark .auth-card input:focus {
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+}
