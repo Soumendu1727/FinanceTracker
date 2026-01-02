@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: financetracker
+    runtime: dotnet
+    plan: free
+    buildCommand: dotnet publish -c Release -o out
+    startCommand: dotnet out/FinanceTracker.dll
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
